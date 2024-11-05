@@ -24,4 +24,6 @@ function bankBalance(nombre, apellido, balance) {
     return balanceFinal
 }
 let cuentaBank = bankBalance("Gloria", "Medina", calculateBalance(operacionesBancarias))
-console.log(cuentaBank);
+//console.log(cuentaBank);
+
+module.exports = bankBalance
